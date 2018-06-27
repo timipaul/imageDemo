@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.administrator.imagedemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name="ShareDataApplication"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UseImageActivity" android:screenOrientation="portrait" />
+        <activity android:name=".canvas.CanvasDemo" android:screenOrientation="portrait" />
+        <activity android:name=".draw.DrawActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.PinBallActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.MatrixActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.BitmapActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.CustomCartoonActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.ShaderImageActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.UseNetworkImageActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.GestureZoonActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.GestureActivity" android:screenOrientation="portrait" />
+        <activity android:name=".data.SharedPreferencesActivity" android:screenOrientation="portrait" />
+        <activity android:name=".data.FileIoActivity" android:screenOrientation="portrait" />
+        <activity android:name=".data.SqlLiteInsertActivity" android:screenOrientation="portrait" />
+        <activity android:name=".update.ImageUpdateActivity" android:screenOrientation="portrait" />
+        <activity android:name=".update.SelectPicActivity" android:screenOrientation="portrait" />
+        <activity android:name=".pin.ShearImageActvity" android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

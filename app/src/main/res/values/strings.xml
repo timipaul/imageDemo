@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">imageDemo</string>
+    <string name="next">下一张</string>
+    <string name="circle">圆形</string>
+    <string name="square">正方形</string>
+    <string name="rect">长方形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="oval">椭圆形</string>
+    <string name="triangle">三角形</string>
+    <string name="pentagon">五角形</string>
+    <string name="width_1">1像素</string>
+    <string name="width_3">3像素</string>
+    <string name="width_5">5像素</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color">画笔颜色</string>
+    <string name="width">画笔宽度</string>
+    <string name="blur">模糊效果</string>
+    <string name="emboss">浮雕效果</string>
+    <string name="hello">Hello World, HandDraw!</string>
+    <string name="bitmap">位图</string>
+    <string name="line">线性渐变</string>
+    <string name="radial">圆形渐变</string>
+    <string name="sweep">角度渐变</string>
+    <string name="composite">混合</string>
+    <string name="write">写入数据</string>
+    <string name="read">读取数据</string>
+    <string name="insert">插入</string>
+</resources>
